@@ -1,0 +1,40 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto";
+}
+html{
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+    user-select: none;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+}
+
+hr{
+    border-color: rgba(211, 211, 211, 0.452);
+}
+p{
+    font-size: 1rem;
+    color: gray;
+    text-align: center;
+    margin-top: 10%;
+}
+a{
+    text-decoration: none;
+}
+
+::-webkit-scrollbar-track {
+    background:white;
+  }
+::-webkit-scrollbar {
+    width: 4px;
+  }
+::-webkit-scrollbar-thumb {
+    background: lightgray; 
+    border-radius: 5px;
+  }
